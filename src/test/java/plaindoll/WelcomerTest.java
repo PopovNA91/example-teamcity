@@ -19,7 +19,7 @@ public class WelcomerTest {
 	}
 	@Test
 	public void welcomerSaysTheEND() {
-		assertThat(welcomer.sayTheEND(), containsString("Farewell"));
+		assertThat(welcomer.sayTheEND(), containsString("end"));
 	}
 	@Test
 	public void welcomerSaysHunter() {
